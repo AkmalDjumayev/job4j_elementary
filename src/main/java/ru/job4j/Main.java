@@ -2,6 +2,11 @@ package ru.job4j;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Привет мир");
+        String name = "Job4j";
+        int age = 6;
+        ArgMethod.hello(name, age);
+        ArgMethod.hello(name, age);
+        ArgMethod.hello(name, age);
+        ArgMethod.hello(name, age);
     }
 }
