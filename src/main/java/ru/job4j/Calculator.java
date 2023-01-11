@@ -73,9 +73,8 @@ public class Calculator {
             height = 170;
             double woman = Fit.womanWeight(height);
             System.out.println("Woman 170 is " + woman);
-            System.out.println("Woman 170 is " + woman);
 
-        }
+            }
     }
 
     }
