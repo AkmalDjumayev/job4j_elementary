@@ -41,7 +41,6 @@ public class Calculator {
             }
     }
 
-    @SuppressWarnings("checkstyle:WhitespaceAround")
     public static class ArgMethod {
         public static void hello(String name, int age) {
             System.out.println("Hello, " + name + ", age = " + age);
