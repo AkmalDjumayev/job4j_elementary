@@ -14,7 +14,7 @@ public class Calculator {
         int size = 10;
         size = 100;
         size = size - 5;
-        size = 50;
+        size = 60;
 
         System.out.println(onePlusTwo);
         System.out.println(sixDivTwo);
