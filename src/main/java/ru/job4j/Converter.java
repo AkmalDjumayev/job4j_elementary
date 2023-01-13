@@ -18,3 +18,4 @@ public class Converter {
         System.out.println("140 rubles are " + String.format("%.2f", dollar) + " dollar.");
     }
 }
+ // тест на 12.01.23  22:40
