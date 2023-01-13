@@ -21,8 +21,6 @@ public class Calculator {
         System.out.println(fourTimeTwo);
     }
 
-
-
         public static class Fit {
         public static double manWeight(short height) {
             double rsl = (height - 100) * 1.15;
