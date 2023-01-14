@@ -2,6 +2,11 @@ package ru.job4j;
 
 public class Info {
     public static void main(String[] args) {
-        System.out.println("11.01.2023");
+
+        short s = 1500;
+        char c =   (char) s;
+        // double d = c;
+        System.out.println(c);
+              //System.out.println("11.01.2023");
     }
 }
