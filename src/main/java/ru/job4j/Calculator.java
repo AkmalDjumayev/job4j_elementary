@@ -1,5 +1,7 @@
 package ru.job4j;
 
+import static ru.job4j.math.MathFunction.*;
+
 @SuppressWarnings("checkstyle:EmptyLineSeparator")
 public class Calculator {
     public static void main(String[] args) {
@@ -20,6 +22,20 @@ public class Calculator {
         System.out.println(sixDivTwo);
         System.out.println(fiveMinusTwo);
         System.out.println(fourTimeTwo);
+        System.out.println("Сумма четырех " + allOfThem(5, 6));
     }
+
+    public static double minusAndDivide(double first, double second) {
+        return minus(first, second)
+                + divide(first, second);
+    }
+
+    public static double allOfThem(double first, double second) {
+        return minus(first, second)
+                + divide(first, second)
+                + sum(first, second)
+                + multiply(first, second);
+    }
+
 }
 
