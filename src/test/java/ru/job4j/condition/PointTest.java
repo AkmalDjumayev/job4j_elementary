@@ -39,7 +39,7 @@ public class PointTest {
 
     @Test
     public void when34to20then4dot12() {
-        double expected = 4.12;
+        double expected = 4.12545;
         int x1 = 3;
         int y1 = 4;
         int x2 = 2;
