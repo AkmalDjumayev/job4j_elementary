@@ -1,7 +1,8 @@
-package ru.job4j;
+package ru.job4j.calculator;
 
 import org.junit.Assert;
 import org.junit.Test;
+import ru.job4j.calculator.Fit;
 
 public class FitTest {
 
