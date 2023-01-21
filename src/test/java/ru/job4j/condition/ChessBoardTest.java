@@ -124,5 +124,4 @@ class ChessBoardTest {
         int expected = 0;
         assertThat(result).isEqualTo(expected);
     }
-
 }
