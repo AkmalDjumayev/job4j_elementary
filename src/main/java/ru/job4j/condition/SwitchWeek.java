@@ -30,19 +30,4 @@ public class SwitchWeek {
         }
         return name;
     }
-
-    public static void main(String[] args) {
-        System.out.println(nameOfDay(1));
-        switch (2) {
-            case 1, 2, 3:
-                System.out.println("Hello");
-                break;
-        }
-        int value = switch ("2") {
-            case "1" -> 1;
-            case "2" -> 2;
-            default -> 0;
-            };
-        System.out.println(value);
-    }
 }
