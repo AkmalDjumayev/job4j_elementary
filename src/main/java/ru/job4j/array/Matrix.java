@@ -8,7 +8,6 @@ public class Matrix {
         for (int row = 1; row < array.length; row++) {
             temp++;
             array[row][0] = temp;
-
         }
         temp = 1;
         for (int cell = 1; cell < array.length; cell++) {
