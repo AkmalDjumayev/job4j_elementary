@@ -9,7 +9,7 @@ public class Machine {
         int size = 0;
         int sdacha = money - price;
         for (int i = 0; i < rsl.length; i++) {
-            while (sdacha - coins[0] >= 0 || sdacha - coins[1] >= 0 || sdacha - coins[2] >= 0 || sdacha - coins[3] >= 0) {
+            while (sdacha >= coins[0]  || sdacha >= coins[1] || sdacha >= coins[2] || sdacha >= coins[3]) {
                 if (sdacha >= coins[0]) {
                     rsl[i] = coins[0];
                     sdacha -= coins[0];
