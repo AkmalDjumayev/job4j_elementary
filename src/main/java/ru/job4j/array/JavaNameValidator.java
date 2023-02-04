@@ -3,23 +3,23 @@ package ru.job4j.array;
 public class JavaNameValidator {
 
     public static boolean isNameValid(String name) {
-        boolean rsl = true;
-        if (name.isEmpty() || (isUpperLatinLetter(name.charAt(0)) == true)
-                || (Character.isDigit(name.charAt(0)) == true)) {
-            return false;
-        } else if ( for (int i = 0; i < name.length(); i++) {
-            if ((isSpecialSymbol(name.charAt(i)) != true) || (isUpperLatinLetter(name.charAt(i)) != true) ||
-                    (isLowerLatinLetter(name.charAt(i)) != true)
-                    || (Character.isDigit(name.charAt(i)) != true)){
-                return false;
-                break;
+        boolean rsl = false;
+        if (name.isEmpty() || (isUpperLatinLetter(name.charAt(0)))
+                || (Character.isDigit(name.charAt(0)))) {
+            return rsl;
+        } else {
+            for (int i = 0; i < name.length(); i++) {
+                if ((isSpecialSymbol(name.charAt(i))) || (isUpperLatinLetter(name.charAt(i)))
+                        || (isLowerLatinLetter(name.charAt(i))) || (Character.isDigit(name.charAt(i)))) {
+                    rsl = true;
+                } else {
+                    rsl = false;
+                    break;
+                }
             }
+            return rsl;
         }
-        return rsl;
     }
-
-
-
 
     public static boolean isSpecialSymbol(int code) {
         return (code == 36) || (code == 95);
